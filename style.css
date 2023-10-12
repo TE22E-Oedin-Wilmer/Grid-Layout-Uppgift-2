@@ -1,0 +1,77 @@
+.logo{
+border: 2px solid black;
+display: flex;
+justify-content: center; 
+}
+
+.logo img{
+height: 6rem;
+}
+
+header {
+    background-image: url(background.jpg);
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    background-size: cover;
+}
+
+.grid {
+display: grid;
+grid-template-columns: 15% auto;
+gap: 0.325 rem;
+}
+
+li {
+    text-align: center;
+    align-items: row;
+    background-image: url(background.jpg);
+    color: white;
+}
+
+main {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+background-image: url(background.jpg);
+background-size: cover;
+}
+
+aside{
+    grid-row: 2/5;
+    background-image: url(dragon_side.png);
+    border: 2px solid black;
+}
+
+nav ul {
+display: flex;
+justify-content: center;
+gap: 2.5rem;
+padding-bottom: 30px;
+}
+
+nav {
+background-image: url(background.jpg);
+background-size: cover;
+}
+
+h1{
+color: white;
+text-align: center;
+}
+
+a{
+color: white;
+text-align: center;
+text-decoration: none;
+}
+
+.grid > * {
+
+    border-radius: 0.25rem;
+}
+
+footer{
+text-align: center;
+background-image: url(background.jpg);
+padding: 50px;
+}
